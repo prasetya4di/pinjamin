@@ -6,18 +6,18 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
-@Entity(tableName = "admin")
+@Entity(tableName = "peminjam")
 @Parcelize
-class Admin(
+class Peminjam(
     @PrimaryKey
-    @ColumnInfo(name = "id_admin")
-    var idAdmin: Int,
-    @ColumnInfo(name = "username")
-    var username: String,
+    @ColumnInfo(name = "id_peminjam")
+    var idPeminjam: Int,
     @ColumnInfo(name = "nama")
     var nama: String,
-    @ColumnInfo(name = "no_hp")
-    var noHp: String,
     @ColumnInfo(name = "alamat")
     var alamat: String,
+    @ColumnInfo(name = "no_hp")
+    var noHp: String,
+    @ColumnInfo(name = "divisi")
+    var divisi: String,
 ) : Parcelable
