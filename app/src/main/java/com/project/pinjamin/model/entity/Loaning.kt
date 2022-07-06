@@ -9,7 +9,7 @@ import java.util.*
 
 @Parcelize
 @Entity(tableName = "peminjaman")
-class Peminjaman(
+class Loaning(
     @PrimaryKey
     @ColumnInfo(name = "id_peminjaman")
     var idPeminjaman: Int,

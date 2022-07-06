@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "kategori")
 @Parcelize
-class Kategori(
+class Category(
     @PrimaryKey
     @ColumnInfo(name = "id_kategori")
     var idKategori: Int,

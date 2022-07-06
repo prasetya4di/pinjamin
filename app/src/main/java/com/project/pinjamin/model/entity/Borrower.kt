@@ -8,7 +8,7 @@ import kotlinx.parcelize.Parcelize
 
 @Entity(tableName = "peminjam")
 @Parcelize
-class Peminjam(
+class Borrower(
     @PrimaryKey
     @ColumnInfo(name = "id_peminjam")
     var idPeminjam: Int,
