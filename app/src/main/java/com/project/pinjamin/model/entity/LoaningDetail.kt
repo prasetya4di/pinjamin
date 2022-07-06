@@ -13,7 +13,5 @@ class LoaningDetail(
     @ColumnInfo(name = "id_detail_peminjaman")
     var idDetailPeminjaman: Int,
     @ColumnInfo(name = "id_peminjaman")
-    var idPeminjaman: Int,
-    @ColumnInfo(name = "id_barang")
-    var idBarang: Int
+    var idPeminjaman: Int
 ) : Parcelable
