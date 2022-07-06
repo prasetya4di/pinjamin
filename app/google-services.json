@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250893784078",
+    "project_id": "pinjamin-b0100",
+    "storage_bucket": "pinjamin-b0100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250893784078:android:b42b807c39ba15563e585f",
+        "android_client_info": {
+          "package_name": "com.project.pinjamin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250893784078-f6i3v10748tlaalbtpuhvq7rsel9rfkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA35kQaWTvGHfp-JeHGIdU9ifsN-uunF7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250893784078-f6i3v10748tlaalbtpuhvq7rsel9rfkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
