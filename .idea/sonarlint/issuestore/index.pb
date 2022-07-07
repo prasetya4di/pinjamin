@@ -47,8 +47,6 @@ l
 k
 ;app/src/main/java/com/project/pinjamin/model/entity/Item.kt,7/a/7afcb366214a4690b1489bfa16ae6bcc5d965aa2
 o
-?app/src/main/java/com/project/pinjamin/model/entity/Category.kt,a/e/aef36456f281f3b5705aaffb18c0a5afb06736a4
-o
 ?app/src/main/java/com/project/pinjamin/model/entity/Borrower.kt,5/7/571285e00d44dd712373d3f5783c471c9f11154f
 {
 Kapp/src/main/java/com/project/pinjamin/model/relation/LoaningWithDetails.kt,a/1/a1453f2e5964c61747f38cd43ebd27315d62b31b
