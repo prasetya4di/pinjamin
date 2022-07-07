@@ -1,4 +1,4 @@
-package com.project.pinjamin.data.local.admin
+package com.project.pinjamin.data.local.loaning_detail
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

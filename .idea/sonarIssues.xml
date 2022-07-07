@@ -43,6 +43,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/borrower/BorrowerDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/category/CategoryDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/item/ItemDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/loaning/LoaningDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/loaning_detail/LoaningDetailDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/database/AppDatabase.kt">
           <value>
             <set />
