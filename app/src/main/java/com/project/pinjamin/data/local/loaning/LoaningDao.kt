@@ -8,7 +8,10 @@ import com.project.pinjamin.model.relation.LoaningWithDetails
 @Dao
 interface LoaningDao {
     @Insert
-    fun insert(loaningDao: Dao)
+    fun insert(loaning: Loaning)
+
+    @Insert
+    fun insert(loanings: List<Loaning>)
 
     @Query("Select * from peminjaman")
     fun get(): LiveData<List<Loaning>>

@@ -9,6 +9,9 @@ interface BorrowerDao {
     @Insert
     fun insert(borrower: Borrower)
 
+    @Insert
+    fun insert(borrowers: List<Borrower>)
+
     @Query("Select * from peminjam")
     fun get(): LiveData<List<Borrower>>
 

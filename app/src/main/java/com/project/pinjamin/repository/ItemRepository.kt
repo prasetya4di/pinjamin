@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface ItemRepository {
     fun insert(item: Item): Flow<Status>
+    fun insert(items: List<Item>): Flow<Status>
     fun update(item: Item): Flow<Status>
     fun delete(item: Item): Flow<Status>
     fun get(): LiveData<List<Item>>

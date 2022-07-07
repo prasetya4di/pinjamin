@@ -8,6 +8,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface LoaningRepository {
     fun insert(loaning: Loaning): Flow<Status>
+    fun insert(loanings: List<Loaning>): Flow<Status>
     fun update(loaning: Loaning): Flow<Status>
     fun delete(loaning: Loaning): Flow<Status>
     fun get(): LiveData<List<Loaning>>

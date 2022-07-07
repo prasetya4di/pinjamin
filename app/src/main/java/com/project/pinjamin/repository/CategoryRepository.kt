@@ -8,6 +8,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface CategoryRepository {
     fun insert(category: Category): Flow<Status>
+    fun insert(categories: List<Category>): Flow<Status>
     fun update(category: Category): Flow<Status>
     fun delete(category: Category): Flow<Status>
     fun get(): LiveData<List<Category>>
