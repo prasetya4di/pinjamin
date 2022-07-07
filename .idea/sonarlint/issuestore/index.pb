@@ -26,8 +26,6 @@ A
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 ;
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 F
@@ -42,8 +40,6 @@ Happ/src/androidTest/java/com/project/pinjamin/ExampleInstrumentedTest.kt,7/5/7
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 H
 app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
-l
-<app/src/main/java/com/project/pinjamin/model/entity/Admin.kt,b/3/b34c8be809721506fc064cef5db2e6f7d94d2fc3
 k
 ;app/src/main/java/com/project/pinjamin/model/entity/Item.kt,7/a/7afcb366214a4690b1489bfa16ae6bcc5d965aa2
 o
