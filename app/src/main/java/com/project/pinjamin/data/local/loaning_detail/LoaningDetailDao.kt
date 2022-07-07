@@ -9,6 +9,9 @@ interface LoaningDetailDao {
     @Insert
     fun insert(loaningDetail: LoaningDetail)
 
+    @Insert
+    fun insert(loaningDetail: List<LoaningDetail>)
+
     @Query("Select * from detail_peminjaman")
     fun get(): LiveData<List<LoaningDetail>>
 
