@@ -1,9 +1,9 @@
 package com.project.pinjamin.data.network.loaning_detail.impl
 
-import com.project.pinjamin.data.network.loaning_detail.LoaningDetailInterface
+import com.project.pinjamin.data.network.loaning_detail.LoaningDetailService
 import com.project.pinjamin.model.entity.LoaningDetail
 
-class LoaningDetailInterfaceImpl : LoaningDetailInterface {
+class LoaningDetailServiceImpl : LoaningDetailService {
     override fun insert(loaningDetail: LoaningDetail) {
         TODO("Not yet implemented")
     }

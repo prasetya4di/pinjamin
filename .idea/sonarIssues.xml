@@ -138,7 +138,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/network/loaning_detail/LoaningDetailService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/network/loaning_detail/impl/LoaningDetailInterfaceImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/network/loaning_detail/impl/LoaningDetailServiceImpl.kt">
           <value>
             <set />
           </value>
@@ -309,6 +319,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/repository/impl/ItemRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/repository/impl/LoaningDetailRepositoryImpl.kt">
           <value>
             <set />
           </value>
