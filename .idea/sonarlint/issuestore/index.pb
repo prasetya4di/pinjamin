@@ -88,8 +88,6 @@ y
 Iapp/src/main/java/com/project/pinjamin/data/local/borrower/BorrowerDao.kt,6/0/604edb77138eb406b8668602b437f1815f08e280
 v
 Fapp/src/main/java/com/project/pinjamin/repository/LoaningRepository.kt,e/2/e238b8a81311d60f79d0c10afbe2669e7fa4d0dd
-
-Oapp/src/main/java/com/project/pinjamin/data/network/category/CategoryService.kt,8/5/85e1fa5b6730b236f9a3a856a158f729bd1c082d
 w
 Gapp/src/main/java/com/project/pinjamin/data/network/item/ItemService.kt,b/e/be8ca9ebea507389bde6524d99dad1388ce4770c
 }
