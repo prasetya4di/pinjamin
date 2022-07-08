@@ -11,7 +11,7 @@ class AdminRepositoryImpl @Inject constructor(
     private val adminDao: AdminDao,
     private val adminService: AdminService
 ) : AdminRepository {
-    override fun login(username: String, password: String): Boolean =
+    override fun login(username: String, password: String): Pair<Boolean, Admin?> =
         adminService.login(username, password)
 
     override fun getAdmin(): LiveData<Admin> = adminDao.get()

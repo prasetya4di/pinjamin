@@ -188,7 +188,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/AdminRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/LoaningRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/impl/AdminRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/network/admin/AdminService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/network/admin/impl/AdminServiceImpl.kt">
           <value>
             <set />
           </value>
@@ -379,6 +399,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/repository/impl/LoaningRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/LoginUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/impl/LoginUseCaseImpl.kt">
           <value>
             <set />
           </value>
