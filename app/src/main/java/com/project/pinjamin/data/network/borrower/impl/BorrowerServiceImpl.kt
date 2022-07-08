@@ -1,19 +1,18 @@
 package com.project.pinjamin.data.network.borrower.impl
 
 import com.project.pinjamin.data.network.borrower.BorrowerService
-import com.project.pinjamin.enum.Status
 import com.project.pinjamin.model.entity.Borrower
 
 class BorrowerServiceImpl : BorrowerService {
-    override fun insert(borrower: Borrower): Status {
+    override fun insert(borrower: Borrower) {
         TODO("Not yet implemented")
     }
 
-    override fun update(borrower: Borrower): Status {
+    override fun update(borrower: Borrower) {
         TODO("Not yet implemented")
     }
 
-    override fun delete(borrower: Borrower): Status {
+    override fun delete(borrower: Borrower) {
         TODO("Not yet implemented")
     }
 
