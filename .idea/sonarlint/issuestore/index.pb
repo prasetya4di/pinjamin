@@ -72,17 +72,11 @@ g
 7app/src/main/java/com/project/pinjamin/MyApplication.kt,c/5/c57ce2eb3738366cebec8d88a6b1e712cc7731eb
 e
 5app/src/main/java/com/project/pinjamin/enum/Status.kt,2/8/2819f755a1a371c9eee445d4012f0deb716e46c6
-w
-Gapp/src/main/java/com/project/pinjamin/data/local/loaning/LoaningDao.kt,6/5/6529c6a35fa579deb9ef711d6c841fe6883a1824
 „
 Tapp/src/main/java/com/project/pinjamin/data/local/loaning_detail/LoaningDetailDao.kt,3/a/3a282719c48ec2b1c6ccc0e8b92ad4cef11ed7d4
 q
 Aapp/src/main/java/com/project/pinjamin/data/local/item/ItemDao.kt,3/c/3c7673a78c16afb08e0291674f2aed029c09c086
 y
 Iapp/src/main/java/com/project/pinjamin/data/local/category/CategoryDao.kt,1/0/10d5baba34949f026b82ffa169c7dadf3a40584d
-|
-Lapp/src/main/java/com/project/pinjamin/repository/LoaningDetailRepository.kt,8/f/8f4cd95a0df4538c2c8bab42515b72e0fa544ca1
 y
 Iapp/src/main/java/com/project/pinjamin/data/local/borrower/BorrowerDao.kt,6/0/604edb77138eb406b8668602b437f1815f08e280
-Œ
-\app/src/main/java/com/project/pinjamin/data/network/loaning_detail/LoaningDetailInterface.kt,5/f/5f3ee21867be1e8000001e569717bc4a4cecd69c
