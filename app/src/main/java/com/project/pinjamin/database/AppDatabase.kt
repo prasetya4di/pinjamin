@@ -15,7 +15,8 @@ import com.project.pinjamin.util.Converters
 
 @Database(
     entities = [Admin::class, Borrower::class, Category::class, Item::class, Loaning::class, LoaningDetail::class, LoaningDetailItemCrossRef::class],
-    version = 1
+    version = 1,
+    exportSchema = false
 )
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
