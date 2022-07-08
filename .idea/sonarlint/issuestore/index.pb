@@ -56,8 +56,6 @@ l
 <app/src/main/java/com/project/pinjamin/model/entity/Admin.kt,b/3/b34c8be809721506fc064cef5db2e6f7d94d2fc3
 n
 >app/src/main/java/com/project/pinjamin/model/entity/Loaning.kt,8/1/81ffc2acac6bce5bc0b553c3050bc52f0d530cda
-n
->app/src/main/java/com/project/pinjamin/database/AppDatabase.kt,a/5/a5f0d7aaae0c667dfa20be3c7c21aa128b204441
 P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 g
