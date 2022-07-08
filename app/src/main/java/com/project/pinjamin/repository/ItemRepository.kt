@@ -1,15 +1,17 @@
 package com.project.pinjamin.repository
 
 import androidx.lifecycle.LiveData
-import com.project.pinjamin.enum.Status
 import com.project.pinjamin.model.entity.Item
-import kotlinx.coroutines.flow.Flow
 
 interface ItemRepository {
-    fun insert(item: Item): Flow<Status>
-    fun insert(items: List<Item>): Flow<Status>
-    fun update(item: Item): Flow<Status>
-    fun delete(item: Item): Flow<Status>
+    fun insert(item: Item)
+    fun insert(items: List<Item>)
+    fun fetchInsert(item: Item)
+    fun update(item: Item)
+    fun fetchUpdate(item: Item)
+    fun delete(item: Item)
+    fun fetchDelete(item: Item)
     fun get(): LiveData<List<Item>>
     fun get(id: Int): LiveData<Item>
+    fun fetchGet(): List<Item>
 }
