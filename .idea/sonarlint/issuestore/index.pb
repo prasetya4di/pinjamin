@@ -82,15 +82,7 @@ y
 Iapp/src/main/java/com/project/pinjamin/data/local/category/CategoryDao.kt,1/0/10d5baba34949f026b82ffa169c7dadf3a40584d
 |
 Lapp/src/main/java/com/project/pinjamin/repository/LoaningDetailRepository.kt,8/f/8f4cd95a0df4538c2c8bab42515b72e0fa544ca1
-s
-Capp/src/main/java/com/project/pinjamin/repository/ItemRepository.kt,3/0/30070b3999966f106d99c6fca299d44d854a2dcc
 y
 Iapp/src/main/java/com/project/pinjamin/data/local/borrower/BorrowerDao.kt,6/0/604edb77138eb406b8668602b437f1815f08e280
-v
-Fapp/src/main/java/com/project/pinjamin/repository/LoaningRepository.kt,e/2/e238b8a81311d60f79d0c10afbe2669e7fa4d0dd
-w
-Gapp/src/main/java/com/project/pinjamin/data/network/item/ItemService.kt,b/e/be8ca9ebea507389bde6524d99dad1388ce4770c
-}
-Mapp/src/main/java/com/project/pinjamin/data/network/loaning/LoaningService.kt,3/b/3b1043a8df169353ffd6a9174807ebb8ef7b0d3b
 Œ
 \app/src/main/java/com/project/pinjamin/data/network/loaning_detail/LoaningDetailInterface.kt,5/f/5f3ee21867be1e8000001e569717bc4a4cecd69c
