@@ -20,8 +20,8 @@ interface LoaningDao {
     fun get(id: Int): LiveData<Loaning>
 
     @Transaction
-    @Query("Select * from peminjaman where id_peminjaman = :id")
-    fun getLoaningWithDetails(id: Int): LiveData<LoaningWithDetails>
+    @Query("Select * from peminjaman")
+    fun getLoaningWithDetails(): LiveData<List<LoaningWithDetails>>
 
     @Update
     fun update(loaning: Loaning)
