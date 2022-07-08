@@ -22,8 +22,8 @@ data class LoaningWithDetails(
     val borrower: Borrower,
     @Relation(
         entity = LoaningDetail::class,
-        parentColumn = "id_kategori",
-        entityColumn = "id_kategori"
+        parentColumn = "id_peminjaman",
+        entityColumn = "id_peminjaman"
     )
     val loaningDetail: List<LoaningDetailWithItem>
 )
