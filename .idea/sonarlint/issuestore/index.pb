@@ -80,8 +80,6 @@ q
 Aapp/src/main/java/com/project/pinjamin/data/local/item/ItemDao.kt,3/c/3c7673a78c16afb08e0291674f2aed029c09c086
 y
 Iapp/src/main/java/com/project/pinjamin/data/local/category/CategoryDao.kt,1/0/10d5baba34949f026b82ffa169c7dadf3a40584d
-w
-Gapp/src/main/java/com/project/pinjamin/repository/CategoryRepository.kt,b/9/b9827c5ae99766493daac34b282a12d6a9bda9ec
 |
 Lapp/src/main/java/com/project/pinjamin/repository/LoaningDetailRepository.kt,8/f/8f4cd95a0df4538c2c8bab42515b72e0fa544ca1
 s
