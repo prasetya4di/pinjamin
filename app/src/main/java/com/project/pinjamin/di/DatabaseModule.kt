@@ -2,13 +2,13 @@ package com.project.pinjamin.di
 
 import android.content.Context
 import androidx.room.Room
-import com.project.pinjamin.data.local.admin.AdminDao
-import com.project.pinjamin.data.local.borrower.BorrowerDao
-import com.project.pinjamin.data.local.category.CategoryDao
-import com.project.pinjamin.data.local.item.ItemDao
-import com.project.pinjamin.data.local.loaning.LoaningDao
-import com.project.pinjamin.data.local.loaning_detail.LoaningDetailDao
-import com.project.pinjamin.database.AppDatabase
+import com.project.pinjamin.data.database.AppDatabase
+import com.project.pinjamin.data.source.local.admin.AdminDao
+import com.project.pinjamin.data.source.local.borrower.BorrowerDao
+import com.project.pinjamin.data.source.local.category.CategoryDao
+import com.project.pinjamin.data.source.local.item.ItemDao
+import com.project.pinjamin.data.source.local.loaning.LoaningDao
+import com.project.pinjamin.data.source.local.loaning_detail.LoaningDetailDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

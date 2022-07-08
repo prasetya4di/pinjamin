@@ -38,6 +38,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/AppDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/entity/LoaningDetail.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/reference/LoaningDetailItemCrossRef.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/relation/LoaningWithDetails.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/local/admin/AdminDao.kt">
           <value>
             <set />
@@ -164,6 +184,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/network/loaning_detail/impl/LoaningDetailServiceImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/LoaningRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/network/borrower/BorrowerService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/BorrowerServiceImpl.kt">
           <value>
             <set />
           </value>
