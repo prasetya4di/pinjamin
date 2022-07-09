@@ -70,8 +70,6 @@ Qapp/src/main/java/com/project/pinjamin/data/repository/impl/ItemRepositoryImpl.
 ]app/src/main/java/com/project/pinjamin/data/source/network/loaning/impl/LoaningServiceImpl.kt,f/6/f607a848d0762be58b9fa9fe174e9138d00b9a0d
 „
 Tapp/src/main/java/com/project/pinjamin/data/source/network/loaning/LoaningService.kt,5/a/5a025d60cac100d8eeaa9e6b32fdfcec120e32ac
-~
-Napp/src/main/java/com/project/pinjamin/data/source/local/loaning/LoaningDao.kt,1/4/14f80b6694df111d006bab5211859ff93e2ec1b9
 „
 Tapp/src/main/java/com/project/pinjamin/data/repository/impl/LoaningRepositoryImpl.kt,6/8/68bec682f96580e0d7a2c1b329d3de3a4d608c84
 ‘
