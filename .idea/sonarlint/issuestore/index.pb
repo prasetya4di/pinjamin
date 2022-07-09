@@ -62,14 +62,6 @@ Wapp/src/main/java/com/project/pinjamin/data/source/network/item/impl/ItemServic
 Napp/src/main/java/com/project/pinjamin/data/source/network/item/ItemService.kt,1/0/1084ecb69f23f787fd51f4b9a725379017e79531
 Å
 Qapp/src/main/java/com/project/pinjamin/data/repository/impl/ItemRepositoryImpl.kt,a/9/a93c43a75aa48fc1fdaa47738831d3cfe9dc02db
-ç
-]app/src/main/java/com/project/pinjamin/data/source/network/loaning/impl/LoaningServiceImpl.kt,f/6/f607a848d0762be58b9fa9fe174e9138d00b9a0d
-Ñ
-Tapp/src/main/java/com/project/pinjamin/data/source/network/loaning/LoaningService.kt,5/a/5a025d60cac100d8eeaa9e6b32fdfcec120e32ac
-Ñ
-Tapp/src/main/java/com/project/pinjamin/data/repository/impl/LoaningRepositoryImpl.kt,6/8/68bec682f96580e0d7a2c1b329d3de3a4d608c84
-ë
-aapp/src/main/java/com/project/pinjamin/data/source/network/loaning_detail/LoaningDetailService.kt,d/b/dbac8f033b07e63626c77fcf58d05d43ce910b3b
 Å
 Qapp/src/main/java/com/project/pinjamin/data/repository/LoaningDetailRepository.kt,f/8/f8ebf753631def7880919a4d74744f827e30feb0
 ä
