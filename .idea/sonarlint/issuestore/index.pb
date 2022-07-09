@@ -80,11 +80,7 @@ k
 ;app/src/main/java/com/project/pinjamin/di/DatabaseModule.kt,8/2/82508d49f8cdc5aed19a3d03501a8d278546c32c
 ö
 japp/src/main/java/com/project/pinjamin/data/source/network/loaning_detail/impl/LoaningDetailServiceImpl.kt,1/3/13ab32757da326f7710e29900da7a9319119ac79
-w
-Gapp/src/main/java/com/project/pinjamin/data/database/entity/Category.kt,4/8/486f51c6b1fe6365715b9e13e7a5353a1b9fd07a
 Ü
 Vapp/src/main/java/com/project/pinjamin/data/source/network/borrower/BorrowerService.kt,4/f/4f0f020951ecd87591c96dfef4e189f14bed9258
-|
-Lapp/src/main/java/com/project/pinjamin/data/database/entity/LoaningDetail.kt,d/3/d3878f74363243540a0aa4896deaf729ffeaaebf
 è
 _app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/BorrowerServiceImpl.kt,8/4/849542e559d53d8b58e8634534bef14ad2dd3660

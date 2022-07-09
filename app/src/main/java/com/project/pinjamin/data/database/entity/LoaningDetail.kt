@@ -9,7 +9,7 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "detail_peminjaman")
 @Parcelize
 class LoaningDetail(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id_detail_peminjaman")
     var idDetailPeminjaman: Int,
     @ColumnInfo(name = "id_peminjaman")
