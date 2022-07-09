@@ -428,6 +428,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/GetCategoryUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/InsertBorrowerUseCase.kt">
           <value>
             <set />
@@ -464,6 +469,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/impl/GetBorrowerUseCaseImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/impl/GetCategoryUseCaseImpl.kt">
           <value>
             <set />
           </value>
