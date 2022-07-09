@@ -1,8 +1,8 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.category.impl
 
 import com.project.pinjamin.data.repository.CategoryRepository
 import com.project.pinjamin.enum.Status
-import com.project.pinjamin.usecase.RefreshCategoryUseCase
+import com.project.pinjamin.usecase.category.RefreshCategoryUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

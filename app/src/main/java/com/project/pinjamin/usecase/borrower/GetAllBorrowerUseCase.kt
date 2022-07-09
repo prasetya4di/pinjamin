@@ -1,4 +1,4 @@
-package com.project.pinjamin.usecase
+package com.project.pinjamin.usecase.borrower
 
 import androidx.lifecycle.LiveData
 import com.project.pinjamin.data.database.entity.Borrower

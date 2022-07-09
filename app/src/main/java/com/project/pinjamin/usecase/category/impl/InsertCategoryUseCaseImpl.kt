@@ -1,20 +1,20 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.category.impl
 
 import com.project.pinjamin.data.database.entity.Category
 import com.project.pinjamin.data.repository.CategoryRepository
 import com.project.pinjamin.enum.Status
-import com.project.pinjamin.usecase.UpdateCategoryUseCase
+import com.project.pinjamin.usecase.category.InsertCategoryUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
-class UpdateCategoryUseCaseImpl @Inject constructor(
+class InsertCategoryUseCaseImpl @Inject constructor(
     private val categoryRepository: CategoryRepository
-) : UpdateCategoryUseCase {
+) : InsertCategoryUseCase {
     override fun invoke(category: Category): Flow<Status> = flow {
         emit(Status.LOADING)
-        categoryRepository.fetchUpdate(category)
-        categoryRepository.update(category)
+        categoryRepository.fetchInsert(category)
+        categoryRepository.insert(category)
         emit(Status.SUCCESS)
     }
 }

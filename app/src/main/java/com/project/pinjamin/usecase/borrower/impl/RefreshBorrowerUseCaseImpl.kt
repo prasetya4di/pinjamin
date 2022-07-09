@@ -1,8 +1,8 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.borrower.impl
 
 import com.project.pinjamin.data.repository.BorrowerRepository
 import com.project.pinjamin.enum.Status
-import com.project.pinjamin.usecase.RefreshBorrowerUseCase
+import com.project.pinjamin.usecase.borrower.RefreshBorrowerUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

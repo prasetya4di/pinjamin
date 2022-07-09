@@ -1,20 +1,20 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.borrower.impl
 
 import com.project.pinjamin.data.database.entity.Borrower
 import com.project.pinjamin.data.repository.BorrowerRepository
 import com.project.pinjamin.enum.Status
-import com.project.pinjamin.usecase.InsertBorrowerUseCase
+import com.project.pinjamin.usecase.borrower.UpdateBorrowerUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
-class InsertBorrowerUseCaseImpl @Inject constructor(
+class UpdateBorrowerUseCaseImpl @Inject constructor(
     private val borrowerRepository: BorrowerRepository
-) : InsertBorrowerUseCase {
+) : UpdateBorrowerUseCase {
     override fun invoke(borrower: Borrower): Flow<Status> = flow {
         emit(Status.LOADING)
-        borrowerRepository.fetchInsert(borrower)
-        borrowerRepository.insert(borrower)
+        borrowerRepository.fetchUpdate(borrower)
+        borrowerRepository.update(borrower)
         emit(Status.SUCCESS)
     }
 }

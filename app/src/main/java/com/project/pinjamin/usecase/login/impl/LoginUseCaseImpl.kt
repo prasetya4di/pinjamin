@@ -1,7 +1,7 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.login.impl
 
 import com.project.pinjamin.data.repository.AdminRepository
-import com.project.pinjamin.usecase.LoginUseCase
+import com.project.pinjamin.usecase.login.LoginUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.project.pinjamin.usecase
+package com.project.pinjamin.usecase.login
 
 import kotlinx.coroutines.flow.Flow
 

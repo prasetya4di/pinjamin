@@ -1,9 +1,9 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.category.impl
 
 import androidx.lifecycle.LiveData
 import com.project.pinjamin.data.database.entity.Category
 import com.project.pinjamin.data.repository.CategoryRepository
-import com.project.pinjamin.usecase.GetCategoryUseCase
+import com.project.pinjamin.usecase.category.GetCategoryUseCase
 import javax.inject.Inject
 
 class GetCategoryUseCaseImpl @Inject constructor(

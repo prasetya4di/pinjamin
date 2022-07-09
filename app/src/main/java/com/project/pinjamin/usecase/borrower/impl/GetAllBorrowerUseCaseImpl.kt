@@ -1,9 +1,9 @@
-package com.project.pinjamin.usecase.impl
+package com.project.pinjamin.usecase.borrower.impl
 
 import androidx.lifecycle.LiveData
 import com.project.pinjamin.data.database.entity.Borrower
 import com.project.pinjamin.data.repository.BorrowerRepository
-import com.project.pinjamin.usecase.GetAllBorrowerUseCase
+import com.project.pinjamin.usecase.borrower.GetAllBorrowerUseCase
 import javax.inject.Inject
 
 class GetAllBorrowerUseCaseImpl @Inject constructor(
