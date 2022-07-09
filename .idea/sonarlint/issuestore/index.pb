@@ -51,8 +51,6 @@ e
 Ö
 Uapp/src/main/java/com/project/pinjamin/data/repository/impl/BorrowerRepositoryImpl.kt,1/b/1bc07979e69e54c9811f65400cfe6b3cbab6a011
 |
-Lapp/src/main/java/com/project/pinjamin/data/repository/BorrowerRepository.kt,a/4/a4b9e2a71cf29cb0ffd3a18b14d7166f9c345b83
-|
 Lapp/src/main/java/com/project/pinjamin/data/repository/CategoryRepository.kt,3/0/30bc1417255c8b45707023c68af227642b4d2eb2
 è
 _app/src/main/java/com/project/pinjamin/data/source/network/category/impl/CategoryServiceImpl.kt,0/1/012d3aa99335b586b77a377a9c164b58405c0d83
