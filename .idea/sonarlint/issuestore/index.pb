@@ -34,10 +34,6 @@ i
 9app/src/test/java/com/project/pinjamin/ExampleUnitTest.kt,4/e/4e065c82570d83eea8600496ba74a331530c1039
 x
 Happ/src/androidTest/java/com/project/pinjamin/ExampleInstrumentedTest.kt,7/5/752b822ddeb57e82773dba3a2b0d9c32f01420ee
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 H
 app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
 i
@@ -86,13 +82,9 @@ k
 japp/src/main/java/com/project/pinjamin/data/source/network/loaning_detail/impl/LoaningDetailServiceImpl.kt,1/3/13ab32757da326f7710e29900da7a9319119ac79
 w
 Gapp/src/main/java/com/project/pinjamin/data/database/entity/Category.kt,4/8/486f51c6b1fe6365715b9e13e7a5353a1b9fd07a
-{
-Kapp/src/main/java/com/project/pinjamin/data/repository/LoaningRepository.kt,0/3/036731db4ab723650cdfd6e49c6d087623e7355b
 †
 Vapp/src/main/java/com/project/pinjamin/data/source/network/borrower/BorrowerService.kt,4/f/4f0f020951ecd87591c96dfef4e189f14bed9258
 |
 Lapp/src/main/java/com/project/pinjamin/data/database/entity/LoaningDetail.kt,d/3/d3878f74363243540a0aa4896deaf729ffeaaebf
-ƒ
-Sapp/src/main/java/com/project/pinjamin/data/database/relation/LoaningWithDetails.kt,c/e/cea54ef02c1055ef04f46a20727a51ea23723871
 
 _app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/BorrowerServiceImpl.kt,8/4/849542e559d53d8b58e8634534bef14ad2dd3660

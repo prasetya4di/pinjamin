@@ -14,6 +14,7 @@ interface LoaningRepository {
     fun fetchDelete(loaning: Loaning)
     fun get(): LiveData<List<Loaning>>
     fun get(id: Int): LiveData<Loaning>
+    fun getLoaningWithDetails(id: Int): LiveData<LoaningWithDetails>
     fun getLoaningWithDetails(): LiveData<List<LoaningWithDetails>>
     fun fetchGet(): List<Loaning>
 }
