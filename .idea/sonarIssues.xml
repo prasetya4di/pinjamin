@@ -583,6 +583,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/item/UpdateItemUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/item/impl/GetAllItemUseCaseImpl.kt">
           <value>
             <set />
@@ -594,6 +599,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/item/impl/InsertItemUseCaseImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/item/impl/UpdateItemUseCaseImpl.kt">
           <value>
             <set />
           </value>
