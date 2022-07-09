@@ -10,7 +10,7 @@ interface CategoryDao {
     @Insert
     fun insert(category: Category)
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(categories: List<Category>)
 
     @Query("Select * from kategori")

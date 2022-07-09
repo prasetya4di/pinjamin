@@ -9,7 +9,7 @@ interface BorrowerDao {
     @Insert
     fun insert(borrower: Borrower)
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(borrowers: List<Borrower>)
 
     @Query("Select * from peminjam")

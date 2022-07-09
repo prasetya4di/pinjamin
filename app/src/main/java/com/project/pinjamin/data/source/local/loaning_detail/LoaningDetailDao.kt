@@ -9,7 +9,7 @@ interface LoaningDetailDao {
     @Insert
     fun insert(loaningDetail: LoaningDetail)
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(loaningDetail: List<LoaningDetail>)
 
     @Query("Select * from detail_peminjaman")

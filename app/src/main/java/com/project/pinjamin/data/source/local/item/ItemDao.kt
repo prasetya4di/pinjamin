@@ -9,7 +9,7 @@ interface ItemDao {
     @Insert
     fun insert(item: Item)
 
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(items: List<Item>)
 
     @Query("Select * from barang")
