@@ -30,6 +30,9 @@ class LoaningRepositoryImpl @Inject constructor(
 
     override fun get(id: Int): LiveData<Loaning> = loaningDao.get(id)
 
+    override fun getLoaningWithDetails(id: Int): LiveData<LoaningWithDetails> =
+        loaningDao.getLoaningWithDetails(id)
+
     override fun getLoaningWithDetails(): LiveData<List<LoaningWithDetails>> =
         loaningDao.getLoaningWithDetails()
 

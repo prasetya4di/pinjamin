@@ -23,6 +23,10 @@ interface LoaningDao {
     @Query("Select * from peminjaman")
     fun getLoaningWithDetails(): LiveData<List<LoaningWithDetails>>
 
+    @Transaction
+    @Query("Select * from peminjaman where id_peminjaman = :id")
+    fun getLoaningWithDetails(id: Int): LiveData<LoaningWithDetails>
+
     @Update
     fun update(loaning: Loaning)
 

@@ -208,6 +208,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/impl/LoaningRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/local/admin/AdminDao.kt">
           <value>
             <set />
