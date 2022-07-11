@@ -36,8 +36,6 @@ H
 app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
 i
 9app/src/main/java/com/project/pinjamin/util/Converters.kt,b/7/b7ffe543f79e49c444c8eca2dc9a5cee1aba14c9
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 g
 7app/src/main/java/com/project/pinjamin/MyApplication.kt,c/5/c57ce2eb3738366cebec8d88a6b1e712cc7731eb
 e
@@ -158,10 +156,6 @@ y
 Iapp/src/main/java/com/project/pinjamin/usecase/item/RefreshItemUseCase.kt,2/f/2f32521277d8adb566e4a41f393426b16cf153e1
 ‚
 Rapp/src/main/java/com/project/pinjamin/usecase/item/impl/RefreshItemUseCaseImpl.kt,b/6/b637686b502431ef06f15bd745aa9f8c24e5e9fd
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
 †
 Vapp/src/main/java/com/project/pinjamin/data/database/relation/LoaningDetailWithItem.kt,f/7/f7b1c9191a58375c99224495b49f71272e55ac15
 {
