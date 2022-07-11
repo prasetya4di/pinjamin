@@ -11,8 +11,6 @@ n
 >app/src/main/java/com/project/pinjamin/ui/home/HomeFragment.kt,d/c/dc47156387d81d39dc3a5704b952e288df351b35
 o
 ?app/src/main/java/com/project/pinjamin/ui/home/HomeViewModel.kt,e/a/eaf71a33bde034dd7ecfc79270a50ca2f878f69c
-f
-6app/src/main/java/com/project/pinjamin/MainActivity.kt,a/a/aa18f55f3c3620493e21067bdbb892659898c827
 7
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 X

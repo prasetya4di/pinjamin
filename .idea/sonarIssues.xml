@@ -458,6 +458,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/splash/SplashActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/DeleteBorrowerUseCase.kt">
           <value>
             <set />
