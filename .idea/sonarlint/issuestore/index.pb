@@ -72,8 +72,6 @@ japp/src/main/java/com/project/pinjamin/data/source/network/loaning_detail/impl/
 Vapp/src/main/java/com/project/pinjamin/data/source/network/borrower/BorrowerService.kt,4/f/4f0f020951ecd87591c96dfef4e189f14bed9258
 è
 _app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/BorrowerServiceImpl.kt,8/4/849542e559d53d8b58e8634534bef14ad2dd3660
-Ç
-Rapp/src/main/java/com/project/pinjamin/data/repository/impl/AdminRepositoryImpl.kt,a/9/a9bc83ccf81825c0cf12a9344c1365bdac5846eb
 Ä
 Papp/src/main/java/com/project/pinjamin/data/source/network/admin/AdminService.kt,2/0/20efec300026f9327700c6603591b7c83116f7cb
 â
