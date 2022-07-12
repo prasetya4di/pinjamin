@@ -1,4 +1,4 @@
-package com.project.pinjamin.enum
+package com.project.pinjamin.enums
 
 enum class Status {
     SUCCESS,

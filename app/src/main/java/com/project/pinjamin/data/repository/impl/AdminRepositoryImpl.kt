@@ -15,4 +15,6 @@ class AdminRepositoryImpl @Inject constructor(
         adminService.login(username, password)
 
     override fun getAdmin(): LiveData<Admin> = adminDao.get()
+
+    override fun insert(admin: Admin) = adminDao.insert(admin)
 }

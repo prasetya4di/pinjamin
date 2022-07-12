@@ -4,7 +4,7 @@ import com.project.pinjamin.data.database.entity.Item
 import com.project.pinjamin.data.database.entity.Loaning
 import com.project.pinjamin.data.repository.LoaningDetailRepository
 import com.project.pinjamin.data.repository.LoaningRepository
-import com.project.pinjamin.enum.Status
+import com.project.pinjamin.enums.Status
 import com.project.pinjamin.usecase.loaning.InsertLoaningUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

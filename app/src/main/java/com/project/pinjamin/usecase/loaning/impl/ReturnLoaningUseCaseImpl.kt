@@ -2,7 +2,7 @@ package com.project.pinjamin.usecase.loaning.impl
 
 import com.project.pinjamin.data.database.entity.Loaning
 import com.project.pinjamin.data.repository.LoaningRepository
-import com.project.pinjamin.enum.Status
+import com.project.pinjamin.enums.Status
 import com.project.pinjamin.usecase.loaning.ReturnLoaningUseCase
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
