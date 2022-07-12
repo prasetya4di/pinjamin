@@ -1,8 +1,4 @@
 
-x
-Happ/src/main/java/com/project/pinjamin/ui/slideshow/SlideshowFragment.kt,c/4/c4e16ab78cd3740c88c6038d0c169b612b379fd6
-y
-Iapp/src/main/java/com/project/pinjamin/ui/slideshow/SlideshowViewModel.kt,7/c/7c863643843e8d550e1f2ba06202b5fc9d7510c8
 t
 Dapp/src/main/java/com/project/pinjamin/ui/gallery/GalleryFragment.kt,e/1/e1d2f5d3a729618453700a556b51ed3cf4edfc38
 u

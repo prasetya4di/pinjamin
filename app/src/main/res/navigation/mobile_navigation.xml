@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.project.pinjamin.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:id="@+id/nav_category"
+        android:name="com.project.pinjamin.ui.category.CategoryFragment"
+        android:label="@string/menu_category"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.project.pinjamin.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:id="@+id/nav_item"
+        android:name="com.project.pinjamin.ui.item.ItemFragment"
+        android:label="@string/menu_item"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

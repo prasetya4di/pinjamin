@@ -8,7 +8,9 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_item">Barang</string>
+    <string name="menu_loaner">Data User</string>
+    <string name="menu_loaning">Peminjaman/Pengembalian</string>
     <string name="app_name_uppercase">PINJAM.IN</string>
 </resources>
