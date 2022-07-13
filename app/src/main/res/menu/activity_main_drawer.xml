@@ -3,26 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/group_home">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_home"
             android:title="@string/menu_home" />
+    </group>
+    <group android:id="@+id/group_category">
         <item
             android:id="@+id/nav_category"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_category"
             android:title="@string/menu_category" />
+    </group>
+    <group android:id="@+id/group_item">
         <item
             android:id="@+id/nav_item"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_item"
             android:title="@string/menu_item" />
+    </group>
+    <group android:id="@+id/group_loaner">
         <item
             android:id="@+id/nav_loaner"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_loaner"
             android:title="@string/menu_loaner" />
+    </group>
+    <group android:id="@+id/group_loaning">
         <item
             android:id="@+id/nav_loaning"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_loaning"
             android:title="@string/menu_loaning" />
     </group>
 </menu>
