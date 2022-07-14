@@ -15,13 +15,13 @@
         android:id="@+id/nav_category"
         android:name="com.project.pinjamin.ui.category.CategoryFragment"
         android:label="@string/menu_category"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_category" />
 
     <fragment
         android:id="@+id/nav_item"
         android:name="com.project.pinjamin.ui.item.ItemFragment"
         android:label="@string/menu_item"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_item" />
 
     <fragment
         android:id="@+id/nav_loaner"
