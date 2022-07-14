@@ -214,5 +214,3 @@ P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 w
 Gapp/src/main/java/com/project/pinjamin/ui/category/CategoryViewModel.kt,4/0/40b4cd273f4810551d75d018eb59e40684f08748
-n
->app/src/main/java/com/project/pinjamin/ui/item/ItemFragment.kt,6/6/663c0aa0038346ce9bf915c2a7376a6f2e621f33

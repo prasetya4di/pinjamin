@@ -6,17 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ui.item.ItemFragment">
 
-    <TextView
-        android:id="@+id/text_slideshow"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
+        android:id="@+id/rvItem"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_inventory" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddItem"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_add_round"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:backgroundTint="@color/primary_blue"
+        app:borderWidth="0dp"
+        app:elevation="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:tint="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
