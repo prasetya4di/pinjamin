@@ -13,4 +13,6 @@
     <string name="menu_loaner">Data User</string>
     <string name="menu_loaning">Peminjaman/Pengembalian</string>
     <string name="app_name_uppercase">PINJAM.IN</string>
+    <string name="btn_txt_delete">Delete</string>
+    <string name="btn_txt_edit">Edit</string>
 </resources>

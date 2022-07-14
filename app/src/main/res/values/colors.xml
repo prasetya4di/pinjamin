@@ -11,4 +11,5 @@
     <color name="primary_blue_200">#0077B6</color>
     <color name="light_blue_200">#CAF0F8</color>
     <color name="light_blue_400">#48CAE4</color>
+    <color name="red_400">#DC3545</color>
 </resources>

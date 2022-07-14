@@ -803,6 +803,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_inventory.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
           <value>
             <set />
@@ -849,6 +854,21 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Projects/Personal/BankSampah/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/auth/register/bloc/register_bloc.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/auth/register/layout/register_new_member/buy_membership_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/pubspec.yaml">
           <value>
             <set />
           </value>
