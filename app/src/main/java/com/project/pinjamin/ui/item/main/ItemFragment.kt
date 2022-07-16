@@ -1,17 +1,16 @@
-package com.project.pinjamin.ui.item
+package com.project.pinjamin.ui.item.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.project.pinjamin.databinding.FragmentSlideshowBinding
+import com.project.pinjamin.databinding.FragmentItemBinding
 
 class ItemFragment : Fragment() {
 
-    private var _binding: FragmentSlideshowBinding? = null
+    private var _binding: FragmentItemBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,13 +24,9 @@ class ItemFragment : Fragment() {
         val itemViewModel =
             ViewModelProvider(this).get(ItemViewModel::class.java)
 
-        _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+        _binding = FragmentItemBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        itemViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
 

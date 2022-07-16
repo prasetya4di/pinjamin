@@ -1,4 +1,4 @@
-package com.project.pinjamin.ui.item
+package com.project.pinjamin.ui.item.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
