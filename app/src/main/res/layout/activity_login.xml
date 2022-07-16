@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Username"
+                android:text="@string/txt_label_username"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -56,13 +56,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
+                android:hint="@string/txt_label_username"
+                android:paddingHorizontal="12dp"
+                android:textSize="16sp"
                 android:background="@drawable/auth_text_border" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="18dp"
-                android:text="Password"
+                android:text="@string/txt_label_password"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -71,6 +74,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="5dp"
+                android:hint="@string/txt_label_password"
+                android:paddingHorizontal="12dp"
+                android:textSize="16sp"
                 android:background="@drawable/auth_text_border" />
 
             <Button

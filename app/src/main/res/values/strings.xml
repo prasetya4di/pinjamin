@@ -17,4 +17,6 @@
     <string name="btn_txt_edit">Edit</string>
     <string name="btn_txt_return">Kembali</string>
     <string name="btn_txt_selesai">Selesai</string>
+    <string name="txt_label_username">Username</string>
+    <string name="txt_label_password">Password</string>
 </resources>
