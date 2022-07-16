@@ -19,4 +19,11 @@
     <string name="btn_txt_selesai">Selesai</string>
     <string name="txt_label_username">Username</string>
     <string name="txt_label_password">Password</string>
+    <string name="txt_item_name">Nama Barang</string>
+    <string name="txt_unit">Satuan</string>
+    <string name="txt_category">Kategori</string>
+    <string name="txt_stok">Stok</string>
+    <string name="txt_stok_hint">100...</string>
+    <string name="btn_txt_save">Simpan</string>
+    <string name="btn_txt_reset">Reset</string>
 </resources>
