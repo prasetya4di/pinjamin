@@ -1,4 +1,4 @@
-package com.project.pinjamin.ui.loaner
+package com.project.pinjamin.ui.loaner.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

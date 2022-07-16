@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/nav_loaner"
-        android:name="com.project.pinjamin.ui.loaner.LoanerFragment"
+        android:name="com.project.pinjamin.ui.loaner.main.LoanerFragment"
         android:label="@string/menu_loaner"
         tools:layout="@layout/fragment_loaner" />
 
