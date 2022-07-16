@@ -210,7 +210,5 @@ Napp/src/main/java/com/project/pinjamin/usecase/loaning/InsertLoaningUseCase.kt
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 ‚
 Rapp/src/main/java/com/project/pinjamin/data/repository/impl/AdminRepositoryImpl.kt,a/9/a9bc83ccf81825c0cf12a9344c1365bdac5846eb
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 w
 Gapp/src/main/java/com/project/pinjamin/ui/category/CategoryViewModel.kt,4/0/40b4cd273f4810551d75d018eb59e40684f08748
