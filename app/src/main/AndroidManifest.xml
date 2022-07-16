@@ -15,6 +15,12 @@
         android:theme="@style/Theme.PinjamIn"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateLoanerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateLoanerActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.item.update.UpdateItemActivity"
             android:exported="false" />
         <activity
