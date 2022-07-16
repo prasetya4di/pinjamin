@@ -15,4 +15,6 @@
     <string name="app_name_uppercase">PINJAM.IN</string>
     <string name="btn_txt_delete">Delete</string>
     <string name="btn_txt_edit">Edit</string>
+    <string name="btn_txt_return">Kembali</string>
+    <string name="btn_txt_selesai">Selesai</string>
 </resources>

@@ -833,6 +833,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_loaning.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
           <value>
             <set />
@@ -889,6 +894,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/auth/register/layout/register_new_member/buy_membership_page.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/payment/payment_midtrans.dart">
           <value>
             <set />
           </value>
