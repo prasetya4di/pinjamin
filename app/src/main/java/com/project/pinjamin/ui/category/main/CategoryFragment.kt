@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
 import com.project.pinjamin.databinding.FragmentCategoryBinding
 
 class CategoryFragment : Fragment() {
@@ -16,14 +16,13 @@ class CategoryFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
+    private val categoryViewModel: CategoryViewModel by viewModels()
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val categoryViewModel =
-            ViewModelProvider(this).get(CategoryViewModel::class.java)
-
         _binding = FragmentCategoryBinding.inflate(inflater, container, false)
         val root: View = binding.root
         return root
