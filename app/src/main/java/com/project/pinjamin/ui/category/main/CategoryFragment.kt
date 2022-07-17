@@ -1,4 +1,4 @@
-package com.project.pinjamin.ui.category
+package com.project.pinjamin.ui.category.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

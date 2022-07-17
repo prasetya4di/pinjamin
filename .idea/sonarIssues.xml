@@ -488,6 +488,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/category/create/CreateCategoryActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/category/update/UpdateCategoryActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/item/ItemFragment.kt">
           <value>
             <set />
@@ -513,6 +523,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/item/create/CreateItemViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/item/main/ItemFragment.kt">
           <value>
             <set />
@@ -524,6 +539,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/item/update/UpdateItemActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/item/update/UpdateItemViewModel.kt">
           <value>
             <set />
           </value>

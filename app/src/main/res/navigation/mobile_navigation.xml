@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_category"
-        android:name="com.project.pinjamin.ui.category.CategoryFragment"
+        android:name="com.project.pinjamin.ui.category.main.CategoryFragment"
         android:label="@string/menu_category"
         tools:layout="@layout/fragment_category" />
 

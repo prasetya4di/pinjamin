@@ -15,6 +15,12 @@
         android:theme="@style/Theme.PinjamIn"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateCategoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".UpdateLoaningActivity"
             android:exported="false" />
         <activity

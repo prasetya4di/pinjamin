@@ -1,4 +1,4 @@
-package com.project.pinjamin.ui.category
+package com.project.pinjamin.ui.category.main
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
