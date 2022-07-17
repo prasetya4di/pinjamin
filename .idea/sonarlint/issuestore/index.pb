@@ -212,3 +212,19 @@ Napp/src/main/java/com/project/pinjamin/usecase/loaning/InsertLoaningUseCase.kt
 Rapp/src/main/java/com/project/pinjamin/data/repository/impl/AdminRepositoryImpl.kt,a/9/a9bc83ccf81825c0cf12a9344c1365bdac5846eb
 w
 Gapp/src/main/java/com/project/pinjamin/ui/category/CategoryViewModel.kt,4/0/40b4cd273f4810551d75d018eb59e40684f08748
+r
+Bapp/src/main/java/com/project/pinjamin/ui/splash/SplashActivity.kt,0/0/008b1c4db1e683f06c17519aeb5505e54ea8ecb2
+t
+Dapp/src/main/java/com/project/pinjamin/ui/loaning/LoaningFragment.kt,d/e/de133022baff662fa399114be7b4b302ebe7de4b
+t
+Dapp/src/main/java/com/project/pinjamin/ui/item/main/ItemViewModel.kt,f/3/f36c00c4ee6835a3777a01cb9a8302fd78fbde34
+v
+Fapp/src/main/java/com/project/pinjamin/ui/category/CategoryFragment.kt,a/4/a4da80f9abc92ce809b53a3085db524407e08da0
+s
+Capp/src/main/java/com/project/pinjamin/ui/item/main/ItemFragment.kt,c/a/ca044edc1e59b4cc4b1fa6b1e76ae0e937b99055
+{
+Kapp/src/main/java/com/project/pinjamin/ui/item/update/UpdateItemActivity.kt,2/3/23b0aa985b648516844cbccacf988bee9f696f48
+x
+Happ/src/main/java/com/project/pinjamin/ui/loaner/main/LoanerViewModel.kt,b/f/bf05deb244e2028a62f1a7cac3f848ba243f47cd
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e

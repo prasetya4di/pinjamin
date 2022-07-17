@@ -23,7 +23,11 @@
     <string name="txt_unit">Satuan</string>
     <string name="txt_category">Kategori</string>
     <string name="txt_stok">Stok</string>
-    <string name="txt_stok_hint">100...</string>
+    <string name="txt_stok_hint">100…</string>
     <string name="btn_txt_save">Simpan</string>
     <string name="btn_txt_reset">Reset</string>
+    <string name="txt_nama">Nama</string>
+    <string name="txt_phone_number">Nomor Telepon</string>
+    <string name="txt_address">Alamat</string>
+    <string name="txt_division">Divisi</string>
 </resources>
