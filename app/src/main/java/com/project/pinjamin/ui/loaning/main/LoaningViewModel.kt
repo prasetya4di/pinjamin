@@ -1,4 +1,4 @@
-package com.project.pinjamin.ui.loaning
+package com.project.pinjamin.ui.loaning.main
 
 import androidx.lifecycle.ViewModel
 
