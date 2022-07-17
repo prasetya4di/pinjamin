@@ -30,4 +30,7 @@
     <string name="txt_phone_number">Nomor Telepon</string>
     <string name="txt_address">Alamat</string>
     <string name="txt_division">Divisi</string>
+    <string name="txt_loaner">Peminjam</string>
+    <string name="txt_borrowed_item">Barang yang akan dipinjam</string>
+    <string name="txt_borrow_date">Tanggal Pinjam</string>
 </resources>
