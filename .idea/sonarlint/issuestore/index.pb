@@ -62,8 +62,6 @@ _app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/Borrow
 Papp/src/main/java/com/project/pinjamin/data/source/network/admin/AdminService.kt,2/0/20efec300026f9327700c6603591b7c83116f7cb
 ‰
 Yapp/src/main/java/com/project/pinjamin/data/source/network/admin/impl/AdminServiceImpl.kt,6/f/6fd4876de4f685b0c85ed0b89bea198210c83f41
-m
-=app/src/main/java/com/project/pinjamin/di/RepositoryModule.kt,a/2/a21b6f5a9a02e1b8e88d22dbcd6a7eb288937ca8
 €
 Papp/src/main/java/com/project/pinjamin/usecase/borrower/DeleteBorrowerUseCase.kt,8/e/8ef35b412b812ad2ff7e58c50ea39d717e4540f7
 €
@@ -100,8 +98,6 @@ Qapp/src/main/java/com/project/pinjamin/usecase/category/RefreshCategoryUseCase.
 Papp/src/main/java/com/project/pinjamin/usecase/category/UpdateCategoryUseCase.kt,8/e/8e2925b81e64ba42f4d81febe6986e67b7b1b6ad
 ‰
 Yapp/src/main/java/com/project/pinjamin/usecase/category/impl/GetAllCategoryUseCaseImpl.kt,9/8/98e357de2a6ab79a634ecdac9d645e6f1014e600
-†
-Vapp/src/main/java/com/project/pinjamin/usecase/category/impl/GetCategoryUseCaseImpl.kt,7/0/7077e7c7acf8ebbe00a6c951ffa698db0fe26e6e
 ‰
 Yapp/src/main/java/com/project/pinjamin/usecase/category/impl/InsertCategoryUseCaseImpl.kt,0/f/0f44705d1f0c44d57eb04774d51f9fc7bc10c84a
 Š
@@ -204,8 +200,6 @@ r
 Bapp/src/main/java/com/project/pinjamin/ui/splash/SplashActivity.kt,0/0/008b1c4db1e683f06c17519aeb5505e54ea8ecb2
 t
 Dapp/src/main/java/com/project/pinjamin/ui/loaning/LoaningFragment.kt,d/e/de133022baff662fa399114be7b4b302ebe7de4b
-t
-Dapp/src/main/java/com/project/pinjamin/ui/item/main/ItemViewModel.kt,f/3/f36c00c4ee6835a3777a01cb9a8302fd78fbde34
 v
 Fapp/src/main/java/com/project/pinjamin/ui/category/CategoryFragment.kt,a/4/a4da80f9abc92ce809b53a3085db524407e08da0
 s
