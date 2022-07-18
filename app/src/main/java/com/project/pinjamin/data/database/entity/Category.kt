@@ -9,9 +9,9 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "kategori")
 @Parcelize
 class Category(
-    @PrimaryKey
+    @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id_kategori")
-    var idKategori: Int,
+    var idKategori: Int = 0,
     @ColumnInfo(name = "nama")
     var nama: String
 ) : Parcelable

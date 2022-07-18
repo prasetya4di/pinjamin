@@ -1,9 +1,7 @@
 package com.project.pinjamin.usecase.category
 
 import com.project.pinjamin.data.database.entity.Category
-import com.project.pinjamin.enums.Status
-import kotlinx.coroutines.flow.Flow
 
 interface DeleteCategoryUseCase {
-    operator fun invoke(category: Category): Flow<Status>
+    operator fun invoke(category: Category)
 }
