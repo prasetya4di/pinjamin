@@ -14,4 +14,8 @@ class Category(
     var idKategori: Int = 0,
     @ColumnInfo(name = "nama")
     var nama: String
-) : Parcelable
+) : Parcelable {
+    override fun toString(): String {
+        return "$idKategori - $nama"
+    }
+}

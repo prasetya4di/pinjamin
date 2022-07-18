@@ -15,7 +15,7 @@ class ItemRepositoryImpl @Inject constructor(
 
     override fun insert(items: List<Item>) = itemDao.insert(items)
 
-    override fun fetchInsert(item: Item) = itemDao.insert(item)
+    override fun fetchInsert(item: Item) = itemService.insert(item)
 
     override fun update(item: Item) = itemDao.update(item)
 

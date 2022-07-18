@@ -1,13 +1,25 @@
 package com.project.pinjamin.ui.item.main
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.project.pinjamin.data.database.entity.Item
+import com.project.pinjamin.usecase.item.DeleteItemUseCase
+import com.project.pinjamin.usecase.item.GetAllItemUseCase
+import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class ItemViewModel : ViewModel() {
+@HiltViewModel
+class ItemViewModel @Inject constructor(
+    getAllItemUseCase: GetAllItemUseCase,
+    private val deleteItemUseCase: DeleteItemUseCase
+) : ViewModel() {
+    var items = getAllItemUseCase()
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+    fun delete(item: Item) {
+        viewModelScope.launch(Dispatchers.IO) {
+            deleteItemUseCase(item)
+        }
     }
-    val text: LiveData<String> = _text
 }

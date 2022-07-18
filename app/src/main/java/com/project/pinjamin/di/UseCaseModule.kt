@@ -1,8 +1,11 @@
 package com.project.pinjamin.di
 
 import com.project.pinjamin.data.repository.CategoryRepository
+import com.project.pinjamin.data.repository.ItemRepository
 import com.project.pinjamin.usecase.category.*
 import com.project.pinjamin.usecase.category.impl.*
+import com.project.pinjamin.usecase.item.*
+import com.project.pinjamin.usecase.item.impl.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -48,4 +51,34 @@ class UseCaseModule {
     fun provideRereshCategoryUseCase(
         categoryRepository: CategoryRepository,
     ): RefreshCategoryUseCase = RefreshCategoryUseCaseImpl(categoryRepository)
+
+    @Provides
+    @Singleton
+    fun provideInsertItemUseCase(
+        itemRepository: ItemRepository,
+    ): InsertItemUseCase = InsertItemUseCaseImpl(itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetAllItemUseCase(
+        itemRepository: ItemRepository,
+    ): GetAllItemUseCase = GetAllItemUseCaseImpl(itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetItemUseCase(
+        itemRepository: ItemRepository,
+    ): GetItemUseCase = GetItemUseCaseImpl(itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideUpdateItemUseCase(
+        itemRepository: ItemRepository,
+    ): UpdateItemUseCase = UpdateItemUseCaseImpl(itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideDeleteItemUseCase(
+        itemRepository: ItemRepository,
+    ): DeleteItemUseCase = DeleteItemUseCaseImpl(itemRepository)
 }

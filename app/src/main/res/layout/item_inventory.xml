@@ -34,19 +34,11 @@
             tools:text="Deskripsi" />
 
         <TextView
-            android:id="@+id/tvItemUnit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:text="Satuan: Kg" />
-
-        <TextView
             android:id="@+id/tvItemStock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvItemUnit"
+            app:layout_constraintTop_toTopOf="parent"
             tools:text="Jumlah: 100" />
 
         <com.google.android.material.button.MaterialButton

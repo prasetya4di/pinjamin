@@ -34,4 +34,5 @@
     <string name="txt_borrowed_item">Barang yang akan dipinjam</string>
     <string name="txt_borrow_date">Tanggal Pinjam</string>
     <string name="txt_category_name">Nama Kategori</string>
+    <string name="txt_description">Deskripsi</string>
 </resources>

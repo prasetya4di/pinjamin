@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
-    android:layout_marginVertical="@dimen/activity_vertical_margin"
+    android:padding="@dimen/activity_horizontal_margin"
     tools:context=".ui.item.create.CreateItemActivity">
 
     <TextView
@@ -31,23 +30,27 @@
         app:layout_constraintTop_toBottomOf="@id/labelItemName" />
 
     <TextView
-        android:id="@+id/labelUnit"
+        android:id="@+id/labelDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/txt_unit"
         android:textColor="@color/black"
         android:textSize="16sp"
+        android:text="@string/txt_description"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/etItemName" />
 
-    <Spinner
-        android:id="@+id/spinnerUnit"
+    <EditText
+        android:id="@+id/etDescription"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:foreground="@drawable/auth_text_border"
-        android:padding="12dp"
-        app:layout_constraintTop_toBottomOf="@id/labelUnit" />
+        android:layout_marginTop="5dp"
+        android:background="@drawable/auth_text_border"
+        android:hint="@string/txt_description"
+        android:paddingHorizontal="12dp"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelDescription" />
 
     <TextView
         android:id="@+id/labelCategory"
@@ -58,7 +61,7 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/spinnerUnit" />
+        app:layout_constraintTop_toBottomOf="@id/etDescription" />
 
     <Spinner
         android:id="@+id/spinnerCategory"
