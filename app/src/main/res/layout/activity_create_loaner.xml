@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="@dimen/activity_vertical_margin"
+    android:padding="@dimen/activity_vertical_margin"
     tools:context=".ui.loaner.create.CreateLoanerActivity">
 
     <TextView
-        android:id="@+id/labelItemName"
+        android:id="@+id/labelName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txt_nama"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/etItemName"
+        android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="5dp"
@@ -27,7 +27,7 @@
         android:paddingHorizontal="12dp"
         android:textSize="16sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/labelItemName" />
+        app:layout_constraintTop_toBottomOf="@id/labelName" />
 
     <TextView
         android:id="@+id/labelPhoneNumber"
@@ -37,8 +37,8 @@
         android:text="@string/txt_phone_number"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintLeft_toLeftOf="@id/etItemName"
-        app:layout_constraintTop_toBottomOf="@id/etItemName" />
+        app:layout_constraintLeft_toLeftOf="@id/etName"
+        app:layout_constraintTop_toBottomOf="@id/etName" />
 
     <EditText
         android:id="@+id/etPhoneNumber"
@@ -98,6 +98,7 @@
         android:layout_height="50dp"
         android:foreground="@drawable/auth_text_border"
         android:padding="12dp"
+        android:entries="@array/list_division"
         app:layout_constraintTop_toBottomOf="@id/labelDivision" />
 
     <Button

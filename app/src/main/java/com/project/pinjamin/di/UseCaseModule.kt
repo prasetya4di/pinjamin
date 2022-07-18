@@ -1,7 +1,10 @@
 package com.project.pinjamin.di
 
+import com.project.pinjamin.data.repository.BorrowerRepository
 import com.project.pinjamin.data.repository.CategoryRepository
 import com.project.pinjamin.data.repository.ItemRepository
+import com.project.pinjamin.usecase.borrower.*
+import com.project.pinjamin.usecase.borrower.impl.*
 import com.project.pinjamin.usecase.category.*
 import com.project.pinjamin.usecase.category.impl.*
 import com.project.pinjamin.usecase.item.*
@@ -81,4 +84,34 @@ class UseCaseModule {
     fun provideDeleteItemUseCase(
         itemRepository: ItemRepository,
     ): DeleteItemUseCase = DeleteItemUseCaseImpl(itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideInsertBorrowerUseCase(
+        borrowerRepository: BorrowerRepository,
+    ): InsertBorrowerUseCase = InsertBorrowerUseCaseImpl(borrowerRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetAllBorrowerUseCase(
+        borrowerRepository: BorrowerRepository,
+    ): GetAllBorrowerUseCase = GetAllBorrowerUseCaseImpl(borrowerRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetBorrowerUseCase(
+        borrowerRepository: BorrowerRepository,
+    ): GetBorrowerUseCase = GetBorrowerUseCaseImpl(borrowerRepository)
+
+    @Provides
+    @Singleton
+    fun provideUpdateBorrowerUseCase(
+        borrowerRepository: BorrowerRepository,
+    ): UpdateBorrowerUseCase = UpdateBorrowerUseCaseImpl(borrowerRepository)
+
+    @Provides
+    @Singleton
+    fun provideDeleteBorrowerUseCase(
+        borrowerRepository: BorrowerRepository,
+    ): DeleteBorrowerUseCase = DeleteBorrowerUseCaseImpl(borrowerRepository)
 }

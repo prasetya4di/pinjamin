@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 class Borrower(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id_peminjam")
-    var idPeminjam: Int,
+    var idPeminjam: Int = 0,
     @ColumnInfo(name = "nama")
     var nama: String,
     @ColumnInfo(name = "alamat")

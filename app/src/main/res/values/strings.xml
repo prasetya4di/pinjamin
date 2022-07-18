@@ -10,7 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_category">Category</string>
     <string name="menu_item">Barang</string>
-    <string name="menu_loaner">Data User</string>
+    <string name="menu_loaner">Peminjam</string>
     <string name="menu_loaning">Peminjaman/Pengembalian</string>
     <string name="app_name_uppercase">PINJAM.IN</string>
     <string name="btn_txt_delete">Delete</string>
@@ -35,4 +35,13 @@
     <string name="txt_borrow_date">Tanggal Pinjam</string>
     <string name="txt_category_name">Nama Kategori</string>
     <string name="txt_description">Deskripsi</string>
+    <string-array name="list_division">
+        <item>Humas</item>
+        <item>HR</item>
+        <item>Management</item>
+        <item>Engineering</item>
+        <item>Marketing</item>
+        <item>Product</item>
+        <item>Content</item>
+    </string-array>
 </resources>
