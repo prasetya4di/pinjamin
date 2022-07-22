@@ -21,7 +21,7 @@ interface CategoryDao {
 
     @Transaction
     @Query("Select * from kategori where id_kategori = :id")
-    fun getCategoryWithItems(id: Int): LiveData<CategoryWithItems>
+    fun getCategoryWithItems(id: Int): CategoryWithItems
 
     @Update
     fun update(category: Category)

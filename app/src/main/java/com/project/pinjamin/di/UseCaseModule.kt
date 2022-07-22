@@ -1,14 +1,21 @@
 package com.project.pinjamin.di
 
-import com.project.pinjamin.data.repository.BorrowerRepository
-import com.project.pinjamin.data.repository.CategoryRepository
-import com.project.pinjamin.data.repository.ItemRepository
+import com.project.pinjamin.data.repository.*
+import com.project.pinjamin.data.source.local.loaning_detail.LoaningDetailItemCrossRefDao
 import com.project.pinjamin.usecase.borrower.*
 import com.project.pinjamin.usecase.borrower.impl.*
 import com.project.pinjamin.usecase.category.*
 import com.project.pinjamin.usecase.category.impl.*
 import com.project.pinjamin.usecase.item.*
 import com.project.pinjamin.usecase.item.impl.*
+import com.project.pinjamin.usecase.loaning.GetLoaningWithDetailUseCase
+import com.project.pinjamin.usecase.loaning.GetLoaningsWithDetailUseCase
+import com.project.pinjamin.usecase.loaning.InsertLoaningUseCase
+import com.project.pinjamin.usecase.loaning.ReturnLoaningUseCase
+import com.project.pinjamin.usecase.loaning.impl.GetLoaningWithDetailUseCaseImpl
+import com.project.pinjamin.usecase.loaning.impl.GetLoaningsWithDetailUseCaseImpl
+import com.project.pinjamin.usecase.loaning.impl.InsertLoaningUseCaseImpl
+import com.project.pinjamin.usecase.loaning.impl.ReturnLoaningUseCaseImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -114,4 +121,43 @@ class UseCaseModule {
     fun provideDeleteBorrowerUseCase(
         borrowerRepository: BorrowerRepository,
     ): DeleteBorrowerUseCase = DeleteBorrowerUseCaseImpl(borrowerRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetAllLoaningsWithDetailUseCase(
+        loaningRepository: LoaningRepository
+    ): GetLoaningsWithDetailUseCase = GetLoaningsWithDetailUseCaseImpl(loaningRepository)
+
+    @Provides
+    @Singleton
+    fun provideGetLoaningWithDetailUseCase(
+        loaningRepository: LoaningRepository
+    ): GetLoaningWithDetailUseCase = GetLoaningWithDetailUseCaseImpl(loaningRepository)
+
+    @Provides
+    @Singleton
+    fun provideUpdateLoaningUseCase(
+        loaningRepository: LoaningRepository,
+        itemRepository: ItemRepository
+    ): ReturnLoaningUseCase = ReturnLoaningUseCaseImpl(loaningRepository, itemRepository)
+
+    @Provides
+    @Singleton
+    fun provideInsertLoaningUseCase(
+        loaningRepository: LoaningRepository,
+        loaningDetailRepository: LoaningDetailRepository,
+        loaningDetailItemCrossRefDao: LoaningDetailItemCrossRefDao,
+        itemRepository: ItemRepository
+    ): InsertLoaningUseCase = InsertLoaningUseCaseImpl(
+        loaningRepository,
+        loaningDetailRepository,
+        loaningDetailItemCrossRefDao,
+        itemRepository
+    )
+
+    @Provides
+    @Singleton
+    fun provideGetCategoryWithItemsUseCase(
+        categoryRepository: CategoryRepository
+    ): GetCategoryWithItemsUseCase = GetCategoryWithItemsUseCaseImpl(categoryRepository)
 }

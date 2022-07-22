@@ -12,7 +12,7 @@ class LoaningRepositoryImpl @Inject constructor(
     private val loaningDao: LoaningDao,
     private val loaningService: LoaningService
 ) : LoaningRepository {
-    override fun insert(loaning: Loaning) = loaningDao.insert(loaning)
+    override fun insert(loaning: Loaning): Long = loaningDao.insert(loaning)
 
     override fun insert(loanings: List<Loaning>) = loaningDao.insert(loanings)
 

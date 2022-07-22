@@ -14,6 +14,6 @@ interface CategoryRepository {
     fun fetchDelete(category: Category)
     fun get(): LiveData<List<Category>>
     fun get(id: Int): LiveData<Category>
-    fun getCategoryWithItems(id: Int): LiveData<CategoryWithItems>
+    fun getCategoryWithItems(id: Int): CategoryWithItems
     fun fetchCategory(): List<Category>
 }

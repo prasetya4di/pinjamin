@@ -23,6 +23,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/project/pinjamin/data/source/local/loaning/LoaningDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/project/pinjamin/database/AppDatabase.java">
           <value>
             <set />
@@ -34,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/project/pinjamin/model/relation/LoaningWithDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/project/pinjamin/ui/loaning/main/LoaningViewModel.java">
           <value>
             <set />
           </value>
@@ -89,6 +99,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/reference/LoaningDetailItemCrossRef.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/database/relation/LoaningDetailWithItem.kt">
           <value>
             <set />
           </value>
@@ -233,6 +248,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/CategoryRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/LoaningDetailRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/LoaningRepository.kt">
           <value>
             <set />
@@ -243,7 +268,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/impl/CategoryRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/impl/ItemRepositoryImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/repository/impl/LoaningDetailRepositoryImpl.kt">
           <value>
             <set />
           </value>
@@ -279,6 +314,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/local/loaning_detail/LoaningDetailDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/data/source/local/loaning_detail/LoaningDetailItemCrossRefDao.kt">
           <value>
             <set />
           </value>
@@ -668,7 +708,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/create/AvailableItemAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/create/CreateLoaningActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/create/CreateLoaningViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/create/SelectedItemAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/main/LoaningAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/ui/loaning/main/LoaningFragment.kt">
           <value>
             <set />
           </value>
@@ -808,6 +873,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/category/GetCategoryWithItemsUseCase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/category/InsertCategoryUseCase.kt">
           <value>
             <set />
@@ -819,6 +889,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/category/impl/DeleteCategoryUseCaseImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/project/pinjamin/usecase/category/impl/GetCategoryWithItemsUseCaseImpl.kt">
           <value>
             <set />
           </value>
@@ -1088,6 +1163,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/available_loan_item.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/fragment_category.xml">
           <value>
             <set />
@@ -1129,6 +1209,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/selected_loan_item.xml">
           <value>
             <set />
           </value>
@@ -1183,6 +1268,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/constant/constant_helper.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/helper/check_expired_date_helper.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/helper/shared_preferences_helper.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/auth/register/bloc/register_bloc.dart">
           <value>
             <set />
@@ -1193,12 +1293,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/home/layout/home/widget/header/home_header.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/page/payment/payment_midtrans.dart">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/lib/repository/payment/payment_repository.dart">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Projects/Personal/memberisasi_flutter/pubspec.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Quipper/learn-kmp-project/LearnKmpIos/Podfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Quipper/learn-kmp-project/LearnKmpShared/shared/src/commonMain/kotlin/com/quipper/school/kmp/shared/data/domain/impl/CalculateLastAttemptProgressWithSessionKeyImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Projects/Quipper/learn-kmp-project/LearnKmpShared/shared/src/commonTest/kotlin/com/quipper/school/kmp/shared/data/domain/CalculateLastAttemptProgressWithSessionKeyTest.kt">
           <value>
             <set />
           </value>

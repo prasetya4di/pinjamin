@@ -15,4 +15,8 @@ data class LoaningDetailWithItem(
         associateBy = Junction(LoaningDetailItemCrossRef::class)
     )
     val item: Item
-)
+) {
+    override fun toString(): String {
+        return "${item.nama}"
+    }
+}

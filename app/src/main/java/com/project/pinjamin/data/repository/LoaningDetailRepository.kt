@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import com.project.pinjamin.data.database.entity.LoaningDetail
 
 interface LoaningDetailRepository {
-    fun insert(loaningDetail: LoaningDetail)
+    fun insert(loaningDetail: LoaningDetail): Long
     fun insert(loaningDetail: List<LoaningDetail>)
     fun fetchInsert(loaningDetail: LoaningDetail)
     fun update(loaningDetail: LoaningDetail)

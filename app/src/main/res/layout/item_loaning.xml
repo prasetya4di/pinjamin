@@ -59,6 +59,7 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_txt_return"
             android:textAllCaps="false"
+            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvDescription" />
@@ -72,7 +73,6 @@
             android:text="@string/btn_txt_selesai"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvDescription" />

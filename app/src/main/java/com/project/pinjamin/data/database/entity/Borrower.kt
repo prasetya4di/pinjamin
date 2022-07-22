@@ -20,4 +20,8 @@ class Borrower(
     var noHp: String,
     @ColumnInfo(name = "divisi")
     var divisi: String,
-) : Parcelable
+) : Parcelable {
+    override fun toString(): String {
+        return "$idPeminjam - $nama"
+    }
+}

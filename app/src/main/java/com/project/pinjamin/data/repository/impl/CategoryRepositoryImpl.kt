@@ -30,7 +30,7 @@ class CategoryRepositoryImpl @Inject constructor(
 
     override fun get(id: Int): LiveData<Category> = categoryDao.get(id)
 
-    override fun getCategoryWithItems(id: Int): LiveData<CategoryWithItems> =
+    override fun getCategoryWithItems(id: Int): CategoryWithItems =
         categoryDao.getCategoryWithItems(id)
 
     override fun fetchCategory(): List<Category> = categoryService.get()

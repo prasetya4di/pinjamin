@@ -8,7 +8,7 @@ import com.project.pinjamin.data.database.relation.LoaningWithDetails
 @Dao
 interface LoaningDao {
     @Insert
-    fun insert(loaning: Loaning)
+    fun insert(loaning: Loaning): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(loanings: List<Loaning>)

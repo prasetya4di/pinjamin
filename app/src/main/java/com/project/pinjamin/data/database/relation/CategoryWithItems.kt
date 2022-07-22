@@ -12,5 +12,5 @@ data class CategoryWithItems(
         parentColumn = "id_kategori",
         entityColumn = "id_kategori"
     )
-    val items: List<Item>
+    var items: List<Item>
 )

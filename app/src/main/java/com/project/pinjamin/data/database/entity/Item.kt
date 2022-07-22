@@ -9,19 +9,23 @@ import kotlinx.parcelize.Parcelize
 @Entity(tableName = "barang")
 @Parcelize
 class Item(
-        @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = true)
         @ColumnInfo(name = "id_barang")
         var idBarang: Int = 0,
-        @ColumnInfo(name = "id_kategori")
+    @ColumnInfo(name = "id_kategori")
         var idKategori: Int,
-        @ColumnInfo(name = "nama")
-        var nama: String,
-        @ColumnInfo(name = "stok")
-        var stok: Int,
-        @ColumnInfo(name = "deskripsi")
-        var deskripsi: String? = null,
-        @ColumnInfo(name = "status")
-        var status: String? = null,
-        @ColumnInfo(name = "foto")
-        var foto: String? = null
-) : Parcelable
+    @ColumnInfo(name = "nama")
+    var nama: String,
+    @ColumnInfo(name = "stok")
+    var stok: Int,
+    @ColumnInfo(name = "deskripsi")
+    var deskripsi: String? = null,
+    @ColumnInfo(name = "status")
+    var status: String? = null,
+    @ColumnInfo(name = "foto")
+    var foto: String? = null
+) : Parcelable {
+    override fun toString(): String {
+        return "$idBarang - $nama"
+    }
+}

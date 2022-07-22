@@ -12,7 +12,7 @@ import java.util.*
 class Loaning(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id_peminjaman")
-    var idPeminjaman: Int,
+    var idPeminjaman: Int = 0,
     @ColumnInfo(name = "id_admin")
     var idAdmin: Int,
     @ColumnInfo(name = "id_peminjam")
@@ -20,7 +20,7 @@ class Loaning(
     @ColumnInfo(name = "tgl_peminjaman")
     var tglPeminjaman: Date,
     @ColumnInfo(name = "tgl_pengembalian")
-    var tglPengembalian: Date,
+    var tglPengembalian: Date? = null,
     @ColumnInfo(name = "status")
     var status: String
 ) : Parcelable

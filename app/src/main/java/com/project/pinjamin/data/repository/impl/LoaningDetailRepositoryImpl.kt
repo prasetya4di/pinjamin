@@ -11,7 +11,7 @@ class LoaningDetailRepositoryImpl @Inject constructor(
     private val loaningDetailDao: LoaningDetailDao,
     private val loaningDetailService: LoaningDetailService
 ) : LoaningDetailRepository {
-    override fun insert(loaningDetail: LoaningDetail) = loaningDetailDao.insert(loaningDetail)
+    override fun insert(loaningDetail: LoaningDetail): Long = loaningDetailDao.insert(loaningDetail)
 
     override fun insert(loaningDetail: List<LoaningDetail>) = loaningDetailDao.insert(loaningDetail)
 

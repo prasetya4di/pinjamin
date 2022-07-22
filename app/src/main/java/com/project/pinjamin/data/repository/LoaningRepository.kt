@@ -5,7 +5,7 @@ import com.project.pinjamin.data.database.entity.Loaning
 import com.project.pinjamin.data.database.relation.LoaningWithDetails
 
 interface LoaningRepository {
-    fun insert(loaning: Loaning)
+    fun insert(loaning: Loaning): Long
     fun insert(loanings: List<Loaning>)
     fun fetchInsert(loaning: Loaning)
     fun update(loaning: Loaning)

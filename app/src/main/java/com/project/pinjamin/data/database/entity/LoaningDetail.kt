@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 class LoaningDetail(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id_detail_peminjaman")
-    var idDetailPeminjaman: Int,
+    var idDetailPeminjaman: Int = 0,
     @ColumnInfo(name = "id_peminjaman")
     var idPeminjaman: Int
 ) : Parcelable
