@@ -32,7 +32,8 @@ class LoaningAdapter(
         holder.binding.tvDescription.text = "Deskripsi: ${loaning.status}"
         holder.binding.tvLoanDate.text =
             "Tanggal Pinjam: ${loaning.tglPeminjaman.dateToString("dd MMMM yyyy")}"
-        holder.binding.tvReturnDate.text = "Tanggal Kembali: ${loaning.tglPengembalian ?: "-"}"
+        holder.binding.tvReturnDate.text =
+            "Tanggal Kembali: ${loaning.tglPengembalian?.dateToString("dd MMMM yyyy") ?: "--"}"
         holder.binding.tvBorrowedItems.text = "Barang: ${details.joinToString(",")}"
     }
 

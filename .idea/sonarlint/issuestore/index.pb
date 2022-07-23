@@ -56,8 +56,6 @@ Dapp/src/main/java/com/project/pinjamin/usecase/login/LoginUseCase.kt,8/d/8d5ec
 Mapp/src/main/java/com/project/pinjamin/usecase/login/impl/LoginUseCaseImpl.kt,2/4/243f8d20fc0df64db1657ad8ddc77f7f0e71961c
 y
 Iapp/src/main/java/com/project/pinjamin/usecase/item/RefreshItemUseCase.kt,2/f/2f32521277d8adb566e4a41f393426b16cf153e1
-Ö
-Uapp/src/main/java/com/project/pinjamin/usecase/loaning/GetLoaningWithDetailUseCase.kt,b/7/b7ccea74e5f0cd51cc843cd66821ef826c0adf23
 Ü
 Vapp/src/main/java/com/project/pinjamin/usecase/loaning/GetLoaningsWithDetailUseCase.kt,2/6/26ac2352c54d3542ba1eeac3d01e26e50e82537e
 ë
@@ -162,8 +160,6 @@ Vapp/src/main/java/com/project/pinjamin/data/source/network/borrower/BorrowerSer
 _app/src/main/java/com/project/pinjamin/data/source/network/borrower/impl/BorrowerServiceImpl.kt,8/4/849542e559d53d8b58e8634534bef14ad2dd3660
 Ä
 Papp/src/main/java/com/project/pinjamin/ui/loaner/create/CreateLoanerViewModel.kt,8/2/829ed9fcef2e815f7e1f59eb95007a0d64efd711
-
-Oapp/src/main/java/com/project/pinjamin/ui/loaner/update/UpdateLoanerActivity.kt,0/b/0b813ac49d8060470e8fcc24a9dcb80f7d69e6f5
 s
 Capp/src/main/java/com/project/pinjamin/data/database/AppDatabase.kt,4/7/47b79582bbcaf2864dc7e10d2a7bcf21066b863a
 ã
@@ -174,8 +170,6 @@ w
 Gapp/src/main/java/com/project/pinjamin/data/database/entity/Category.kt,4/8/486f51c6b1fe6365715b9e13e7a5353a1b9fd07a
 x
 Happ/src/main/java/com/project/pinjamin/data/source/local/item/ItemDao.kt,d/3/d3b5d47b6aee3926ecebb3246b155ee5c6d53ea9
-Ä
-Papp/src/main/java/com/project/pinjamin/ui/loaner/update/UpdateLoanerViewModel.kt,e/d/edd6e23f0e23623624d12cab3bd8c155d2559192
 v
 Fapp/src/main/java/com/project/pinjamin/data/database/entity/Loaning.kt,3/f/3f6de84eddf87ac96d8ec2d5c34553bbdcd6d268
 {
@@ -224,12 +218,8 @@ Qapp/src/main/java/com/project/pinjamin/data/repository/impl/ItemRepositoryImpl.
 Zapp/src/main/java/com/project/pinjamin/data/repository/impl/LoaningDetailRepositoryImpl.kt,d/4/d460b39d8a5f4c384f101d98b9ad7d608fab612b
 s
 Capp/src/main/java/com/project/pinjamin/data/database/entity/Item.kt,e/4/e403ca357333a7c73ee1be9b9b62dad22af4c2b1
-z
-Japp/src/main/java/com/project/pinjamin/ui/loaning/main/LoaningViewModel.kt,1/5/154893f4ec670c0749e5dfa5e945c8c5a6842f9f
 Ä
 Papp/src/main/java/com/project/pinjamin/ui/loaning/create/AvailableItemAdapter.kt,4/8/48b5ade96539f23d1c7c8c4c06cb81a43c03c880
-
-Oapp/src/main/java/com/project/pinjamin/ui/loaning/create/SelectedItemAdapter.kt,8/8/887964b687106d056be3dbefe347d4e1cf621e26
 è
 _app/src/main/java/com/project/pinjamin/usecase/category/impl/GetCategoryWithItemsUseCaseImpl.kt,6/4/6471f0a0400e74244d1366031552c47b3ef2984a
 

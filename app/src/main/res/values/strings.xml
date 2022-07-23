@@ -37,6 +37,8 @@
     <string name="txt_description">Deskripsi</string>
     <string name="txt_available_item">Daftar Barang</string>
     <string name="tanggal_text">%1$d %2$s %3$d</string>
+    <string name="txt_return_date">Tanggal Kembali</string>
+    <string name="txt_borrowed_items">Barang yang dipinjam</string>
     <string-array name="list_division">
         <item>Humas</item>
         <item>HR</item>

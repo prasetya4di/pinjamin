@@ -87,7 +87,7 @@ class CreateLoaningViewModel @Inject constructor(
                     idAdmin = 1,
                     idPeminjam = selectedBorrower.value!!.idPeminjam,
                     tglPeminjaman = _borrowDate!!,
-                    status = "Borrowed"
+                    status = "Dipinjam"
                 ),
                 _selectedItems.value!!
             )

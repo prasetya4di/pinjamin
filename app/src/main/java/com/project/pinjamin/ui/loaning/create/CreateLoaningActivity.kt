@@ -21,7 +21,6 @@ import java.util.*
 class CreateLoaningActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCreateLoaningBinding
     private val viewModel: CreateLoaningViewModel by viewModels()
-    private var userIsInteracting = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,7 +45,6 @@ class CreateLoaningActivity : AppCompatActivity() {
                             p3: Long
                         ) {
                             viewModel.changeCategory(categories[position])
-                            userIsInteracting = false
                         }
 
                         override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -97,7 +95,6 @@ class CreateLoaningActivity : AppCompatActivity() {
                 object : SelectedItemAdapter.SelectedItemAdapterCallback {
                     override fun onClick(item: Item) {
                         viewModel.removeItem(item)
-                        userIsInteracting = false
                     }
                 })
             binding.rvSelectedItem.adapter = selectedItemAdapter
@@ -121,11 +118,6 @@ class CreateLoaningActivity : AppCompatActivity() {
         }
     }
 
-    override fun onUserInteraction() {
-        super.onUserInteraction()
-        userIsInteracting = true
-    }
-
     private fun pickDate() {
         val calendar = Calendar.getInstance()
         val currentYear = calendar.get(Calendar.YEAR)
@@ -135,7 +127,7 @@ class CreateLoaningActivity : AppCompatActivity() {
         val datePickerDialog = DatePickerDialog(this, { _, year, month, dayOfMonth ->
             val formatter = SimpleDateFormat("yyyy-MM-dd")
             val date = formatter.parse("$year-${month + 1}-$dayOfMonth")
-            viewModel.changeDate(date)
+            date?.let { viewModel.changeDate(it) }
             binding.etBorrowDate.setText(
                 getString(
                     R.string.tanggal_text,

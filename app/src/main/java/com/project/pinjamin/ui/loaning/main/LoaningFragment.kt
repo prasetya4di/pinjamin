@@ -10,8 +10,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.project.pinjamin.data.database.relation.LoaningWithDetails
 import com.project.pinjamin.databinding.FragmentLoaningBinding
-import com.project.pinjamin.ui.loaner.update.UpdateLoanerActivity
 import com.project.pinjamin.ui.loaning.create.CreateLoaningActivity
+import com.project.pinjamin.ui.loaning.update.UpdateLoaningActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -46,7 +46,8 @@ class LoaningFragment : Fragment() {
                 object : LoaningAdapter.LoaningAdapterCallback {
                     override fun tapReturn(loaningWithDetails: LoaningWithDetails) {
                         val intent =
-                            Intent(this@LoaningFragment.context, UpdateLoanerActivity::class.java)
+                            Intent(this@LoaningFragment.context, UpdateLoaningActivity::class.java)
+                        intent.putExtra("id_loaning", loaningWithDetails.loaning.idPeminjaman)
                         startActivity(intent)
                     }
                 }
