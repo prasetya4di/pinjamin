@@ -102,6 +102,8 @@
             app:layout_constraintTop_toBottomOf="@id/rvSelectedItem" />
 
         <EditText
+            android:focusable="false"
+            android:inputType="date"
             android:id="@+id/etBorrowDate"
             android:layout_width="match_parent"
             android:layout_height="50dp"

@@ -1,5 +1,6 @@
 package com.project.pinjamin.ui.loaning.create
 
+import android.app.DatePickerDialog
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
@@ -7,9 +8,13 @@ import android.widget.ArrayAdapter
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.flexbox.FlexboxLayoutManager
+import com.project.pinjamin.R
 import com.project.pinjamin.data.database.entity.Item
 import com.project.pinjamin.databinding.ActivityCreateLoaningBinding
+import com.project.pinjamin.util.DateUtil
 import dagger.hilt.android.AndroidEntryPoint
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 @AndroidEntryPoint
@@ -97,10 +102,49 @@ class CreateLoaningActivity : AppCompatActivity() {
                 })
             binding.rvSelectedItem.adapter = selectedItemAdapter
         }
+
+        binding.etBorrowDate.setOnClickListener {
+            pickDate()
+        }
+
+        binding.btnReset.setOnClickListener {
+            binding.etBorrowDate.text.clear()
+            binding.spinnerLoaner.setSelection(0)
+            binding.spinnerCategory.setSelection(0)
+        }
+
+        binding.btnSave.setOnClickListener {
+            if (viewModel.isReadySubmit()) {
+                viewModel.addLoaning()
+                onBackPressed()
+            }
+        }
     }
 
     override fun onUserInteraction() {
         super.onUserInteraction()
         userIsInteracting = true
+    }
+
+    private fun pickDate() {
+        val calendar = Calendar.getInstance()
+        val currentYear = calendar.get(Calendar.YEAR)
+        val currentMonth = calendar.get(Calendar.MONTH)
+        val currentDay = calendar.get(Calendar.DAY_OF_MONTH)
+
+        val datePickerDialog = DatePickerDialog(this, { _, year, month, dayOfMonth ->
+            val formatter = SimpleDateFormat("yyyy-MM-dd")
+            val date = formatter.parse("$year-${month + 1}-$dayOfMonth")
+            viewModel.changeDate(date)
+            binding.etBorrowDate.setText(
+                getString(
+                    R.string.tanggal_text,
+                    dayOfMonth,
+                    DateUtil.getMonthName(month),
+                    year
+                )
+            )
+        }, currentYear, currentMonth, currentDay)
+        datePickerDialog.show()
     }
 }

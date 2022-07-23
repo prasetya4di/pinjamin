@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.project.pinjamin.data.database.relation.LoaningWithDetails
 import com.project.pinjamin.databinding.ItemLoaningBinding
+import com.project.pinjamin.util.dateToString
 
 class LoaningAdapter(
     private val listLoaning: List<LoaningWithDetails>,
@@ -29,7 +30,8 @@ class LoaningAdapter(
         }
         holder.binding.tvLoanerName.text = "Peminjam: ${borrower.nama}"
         holder.binding.tvDescription.text = "Deskripsi: ${loaning.status}"
-        holder.binding.tvLoanDate.text = "Tanggal Pinjam: ${loaning.tglPeminjaman}"
+        holder.binding.tvLoanDate.text =
+            "Tanggal Pinjam: ${loaning.tglPeminjaman.dateToString("dd MMMM yyyy")}"
         holder.binding.tvReturnDate.text = "Tanggal Kembali: ${loaning.tglPengembalian ?: "-"}"
         holder.binding.tvBorrowedItems.text = "Barang: ${details.joinToString(",")}"
     }

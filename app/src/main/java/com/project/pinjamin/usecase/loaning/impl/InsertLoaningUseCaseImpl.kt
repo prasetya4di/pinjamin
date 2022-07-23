@@ -20,6 +20,7 @@ class InsertLoaningUseCaseImpl @Inject constructor(
     override fun invoke(loaning: Loaning, items: List<Item>) {
         val idLoaning = loaningRepository.insert(loaning)
         items.forEach {
+            it.stok = it.stok.minus(1)
             val idLoaningDetail =
                 loaningDetailRepository.insert(LoaningDetail(idPeminjaman = idLoaning.toInt()))
             loaningDetailItemCrossRefDao.insert(
@@ -28,6 +29,7 @@ class InsertLoaningUseCaseImpl @Inject constructor(
                     it.idBarang
                 )
             )
+            itemRepository.update(it)
         }
     }
 }

@@ -5,7 +5,7 @@ import com.project.pinjamin.data.database.entity.Category
 import com.project.pinjamin.data.database.relation.CategoryWithItems
 
 interface CategoryRepository {
-    fun insert(category: Category)
+    fun insert(category: Category): Long
     fun insert(categories: List<Category>)
     fun fetchInsert(category: Category)
     fun update(category: Category)

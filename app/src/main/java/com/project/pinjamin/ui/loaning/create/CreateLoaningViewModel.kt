@@ -27,6 +27,7 @@ class CreateLoaningViewModel @Inject constructor(
     private val getCategoryWithItemsUseCase: GetCategoryWithItemsUseCase
 ) : ViewModel() {
     private var _selectedCategory: Category? = null
+    private var _borrowDate: Date? = null
     private val _tempSelectedItems = mutableListOf<Item>()
     private val _selectedItems = MutableLiveData<List<Item>>()
     private val _selectedBorrower = MutableLiveData<Borrower>()
@@ -79,17 +80,24 @@ class CreateLoaningViewModel @Inject constructor(
         }
     }
 
-    fun addLoaning(tanggalPinjam: Date) {
+    fun addLoaning() {
         viewModelScope.launch(Dispatchers.IO) {
             insertLoaningUseCase(
                 Loaning(
                     idAdmin = 1,
                     idPeminjam = selectedBorrower.value!!.idPeminjam,
-                    tglPeminjaman = tanggalPinjam,
+                    tglPeminjaman = _borrowDate!!,
                     status = "Borrowed"
                 ),
                 _selectedItems.value!!
             )
         }
     }
+
+    fun changeDate(date: Date) {
+        _borrowDate = date
+    }
+
+    fun isReadySubmit(): Boolean = _borrowDate != null
+            && (_selectedItems.value?.size ?: 0) > 0
 }

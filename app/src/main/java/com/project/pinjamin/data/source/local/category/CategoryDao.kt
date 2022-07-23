@@ -8,7 +8,7 @@ import com.project.pinjamin.data.database.relation.CategoryWithItems
 @Dao
 interface CategoryDao {
     @Insert
-    fun insert(category: Category)
+    fun insert(category: Category): Long
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(categories: List<Category>)
